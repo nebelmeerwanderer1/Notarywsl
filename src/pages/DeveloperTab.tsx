@@ -14,7 +14,7 @@ export const DeveloperTab = () => {
     <InputContainer>
       <Panel style={{ overflow: 'visible', height: 500, marginTop: 5, width: 'auto' }}>
         <Typography variant='h6'>Public API</Typography>
-        <Typography variant='caption'>The notary service API endpoints are freely available.</Typography>{' '}
+        <Typography variant='caption'>The timestamp service API endpoints are freely available.</Typography>{' '}
         <Card>
           <CardContent>
             <Typography sx={{ fontSize: 14 }} color='text.secondary' gutterBottom>

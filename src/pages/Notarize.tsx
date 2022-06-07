@@ -131,7 +131,7 @@ export const Notarize: FunctionComponent<Props> = ({ endpoint }) => {
       {fileList && fileList.length > 0 && resultList.length === 0 && (
         <ButtonContainer>
           <Button variant='outlined' color='info' onClick={notarizeFiles}>
-            Notarize files{' '}
+            Timestamp files{' '}
           </Button>
         </ButtonContainer>
       )}

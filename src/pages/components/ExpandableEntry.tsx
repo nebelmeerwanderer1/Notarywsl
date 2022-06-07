@@ -48,7 +48,7 @@ export const ExpandableEntry: FunctionComponent<Props> = ({ result }) => {
               key={date.blockHash}
               style={{ cursor: 'pointer' }}
               primaryTypographyProps={{ fontSize: '12px' }}
-              primary={'Notarized: ' + new Date(date.blockSlotTime).toUTCString()}
+              primary={'Timestamped: ' + new Date(date.blockSlotTime).toUTCString()}
               onClick={() => openBlockLink(date.blockHash)}
             />
           ))}

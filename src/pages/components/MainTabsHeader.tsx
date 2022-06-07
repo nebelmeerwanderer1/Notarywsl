@@ -35,7 +35,7 @@ export const MainTabsHeader: FunctionComponent<Props> = ({ pageState, handleTabC
           backgroundColor: pageState === 0 ? '#ffffff' : '#3c3c50',
           color: pageState !== 0 ? '#ffffff' : '#3c3c50'
         }}
-        label='Notarize'
+        label='Timestamp'
       />
       <Tab
         icon={<FindInPageIcon />}

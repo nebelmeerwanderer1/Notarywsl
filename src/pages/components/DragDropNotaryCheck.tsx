@@ -78,7 +78,7 @@ export const DragDropNotaryCheck: FunctionComponent<Props> = ({ endpoint }) => {
   return (
     <>
       <Typography variant='caption' style={{ fontSize: 10 }}>
-        Note that newly notarized files may take 5-10 minutes to show up
+        Note that newly timestamped files may take 5-10 minutes to show up
       </Typography>
       {resultList.length === 0 && <UploadField fileChangeHandler={handleFileListChange} />}
       <Panel>
