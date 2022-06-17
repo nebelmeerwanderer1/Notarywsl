@@ -1,3 +1,5 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
 import Tab from '@mui/material/Tab'
 import Tabs from '@mui/material/Tabs'
 import { Link, Typography } from '@mui/material'

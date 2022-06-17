@@ -3,7 +3,7 @@ import CryptoJS from 'crypto-js'
 export class ChecksumService {
   async sha256(file: File): Promise<string> {
     let sha256 = CryptoJS.algo.SHA256.create()
-    const sliceSize = 10_485_760 // 10 MiB
+    const sliceSize = 10485760 // 10 MiB
     let start = 0
 
     while (start < file.size) {

@@ -1,3 +1,5 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
 import TagIcon from '@mui/icons-material/Tag'
 import UploadFileIcon from '@mui/icons-material/UploadFile'
 import { Divider, Tab, Tabs } from '@mui/material'
